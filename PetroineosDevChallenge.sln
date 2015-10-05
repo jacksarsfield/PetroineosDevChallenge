@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerIntradayReporting", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerIntradayReportingTest", "PowerIntradayReportingTest\PowerIntradayReportingTest.csproj", "{F6FF7F6A-D8F8-4646-828B-7867AC6B4A7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{1E245242-0194-489C-8249-F27F1146D89E}"
+	ProjectSection(SolutionItems) = preProject
+		References\PowerService.dll = References\PowerService.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
