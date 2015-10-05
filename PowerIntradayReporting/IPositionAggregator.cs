@@ -7,6 +7,6 @@ namespace PowerIntradayReporting
 {
     public interface IPositionAggregator
     {
-        PowerPosition Aggregate(DateTime date, IEnumerable<PowerTrade> powerTrades);
+        PowerPosition Aggregate(DateTime positionDate, IEnumerable<PowerTrade> powerTrades);
     }
 }

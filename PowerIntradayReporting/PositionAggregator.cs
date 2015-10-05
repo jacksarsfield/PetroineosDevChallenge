@@ -10,11 +10,11 @@ namespace PowerIntradayReporting
     {
         private const int NoOfInterals = 24;
 
-        public PowerPosition Aggregate(DateTime date, IEnumerable<PowerTrade> powerTrades)
+        public PowerPosition Aggregate(DateTime positionDate, IEnumerable<PowerTrade> powerTrades)
         {
             var powerTradesList = powerTrades.ToList();
 
-            var position = new PowerPosition(date.Date, NoOfInterals);
+            var position = new PowerPosition(positionDate, NoOfInterals);
             if (!powerTradesList.Any())
             {
                 return position;

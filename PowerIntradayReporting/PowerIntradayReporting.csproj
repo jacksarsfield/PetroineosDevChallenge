@@ -74,12 +74,14 @@
   <ItemGroup>
     <Compile Include="Constant\ReportConstants.cs" />
     <Compile Include="DependencyInjection\IntradayReportRegistry.cs" />
+    <Compile Include="IDateCalculator.cs" />
     <Compile Include="IFileNameGenerator.cs" />
     <Compile Include="IReportContentWriter.cs" />
     <Compile Include="IReportGenerator.cs" />
     <Compile Include="IReportService.cs" />
     <Compile Include="FileNameGenerator.cs" />
     <Compile Include="FileWriter.cs" />
+    <Compile Include="Model\DateResult.cs" />
     <Compile Include="ReportContentWriter.cs" />
     <Compile Include="ReportGenerator.cs" />
     <Compile Include="ReportService.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Model\PowerPositionPeriod.cs" />
     <Compile Include="PositionAggregator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DateCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

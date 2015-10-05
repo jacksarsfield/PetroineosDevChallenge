@@ -10,6 +10,7 @@ namespace PowerIntradayReporting.DependencyInjection
         {
             IncludeRegistry<CoreRegistry>();
 
+            For<IDateCalculator>().Use<DateCalculator>();
             For<IFileNameGenerator>().Use<FileNameGenerator>();
             For<IReportContentWriter>().Use<ReportContentWriter>();
             For<IReportGenerator>().Use<ReportGenerator>();
